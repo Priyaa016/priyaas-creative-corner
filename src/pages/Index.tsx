@@ -1,32 +1,12 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Experience from "@/components/Experience";
-import Achievements from "@/components/Achievements";
-import Contact from "@/components/Contact";
+// Update this page (the content is just a fallback if you fail to update the page)
 
 const Index = () => {
   return (
-    <div className="scroll-smooth">
-      <Navigation />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Experience />
-        <Achievements />
-        <Contact />
-      </main>
-      
-      {/* Footer */}
-      <footer className="py-8 px-6 border-t border-border/50">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-muted-foreground">
-            © 2025 Priyaa Ravi. Built with passion and modern web technologies.
-          </p>
-        </div>
-      </footer>
+    <div className="min-h-screen flex items-center justify-center bg-background">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
+        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+      </div>
     </div>
   );
 };
